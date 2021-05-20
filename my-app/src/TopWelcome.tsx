@@ -2,9 +2,9 @@ import React from 'react'
 import './TopWelcome.css';
 import FadeInAnimation from "./FadeIn";
 import alexis from "my-app/public/alexisImage.jpeg"
+
 export default function TopWelcome() {
     return (
-        <FadeInAnimation wrapperElement="div" direction="up">
         <div className="topCard text-center">
             <section className="text-light WelcomeCard1">
                 <h1> Welcome to Citizens Report </h1>
@@ -22,7 +22,5 @@ export default function TopWelcome() {
                 </form>
             </section>
         </div>
-        </FadeInAnimation>
-        
     )
 }
