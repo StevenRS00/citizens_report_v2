@@ -1,44 +1,42 @@
 import React from 'react'
 import {Creator} from './Creator'
+import './MiddleWelcome.css';
+import alexis_local from './alexisImage.jpeg'
+import michael_local from './michaelImage.png'
+import steven_local from './stevenImage.jpeg'
 
 interface CreatorType {
     name: string
     img: string
-    roleTitle: string
     contribution: string
-    tech: string
 }
 
 export const MiddleWelcome = () => {
     let alexis:CreatorType = {
         name: "Alexis Sanchez",
-        img: "alexis_local",
-        roleTitle: "Full-Stack",
+        img: alexis_local,
         contribution: "etc.",
-        tech: "etc."
     }
     let steven:CreatorType = {
         name: "Steven Schreiber",
-        img: "steven_local",
-        roleTitle: "Full-Stack",
+        img: steven_local,
         contribution: "etc.",
-        tech: "etc."
     }
     let michael:CreatorType = {
         name: "Michael Velasquez",
-        img: "michael_local",
-        roleTitle: "Full-Stack",
+        img: michael_local,
         contribution: "etc.",
-        tech: "etc."
     }
 
     return (
-        <div className="">
-            <h1 className="text-center"><strong>Who We Are</strong></h1>
+        <section className="middleCard star">
+            <section className="container text-dark">
+                <h1 className="text-center"><strong>Who We Are</strong></h1>
 
-            <Creator name={alexis.name} img={alexis.img} roleTitle={alexis.roleTitle} contribution={alexis.contribution} tech={alexis.tech}/>
-            <Creator name={steven.name} img={steven.img} roleTitle={steven.roleTitle} contribution={steven.contribution} tech={steven.tech}/>
-            <Creator name={michael.name} img={michael.img} roleTitle={michael.roleTitle} contribution={michael.contribution} tech={michael.tech}/>
-        </div>
+                <Creator name={alexis.name} img={alexis.img} contribution={alexis.contribution} />
+                <Creator name={steven.name} img={steven.img} contribution={steven.contribution} />
+                <Creator name={michael.name} img={michael.img} contribution={michael.contribution} />
+            </section>
+        </section>
     )
 }

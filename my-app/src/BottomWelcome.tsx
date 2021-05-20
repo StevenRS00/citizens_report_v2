@@ -2,8 +2,7 @@ import React from 'react'
 import './BottomWelcome.css';
 export default function BottomWelcome() {
     return (
-        <div>
-            <section className="bottomCard star">
+            <section className="bottomCard star text-center">
                 <h1>
                     <strong> About Us </strong>
                 </h1>
@@ -12,6 +11,5 @@ export default function BottomWelcome() {
                     We are a young group of software engineers passionate about helping people
                 </p>
             </section>
-        </div>
     )
 }

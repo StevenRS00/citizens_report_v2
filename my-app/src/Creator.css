@@ -1,17 +1,9 @@
-.contribution {
-    font-size: 9px
-}
-
 .img {
-    width: 200rem;
-    height: 200rem;
+    width: 70%;
+    height: 70%;
 }
 
 .circular--square {
     border-radius: 50%;
     padding-top: 5px;
   }
-
-.star {
-visibility: hidden;
-}
