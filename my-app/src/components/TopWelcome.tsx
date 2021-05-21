@@ -1,7 +1,5 @@
 import React from 'react'
-import './css/TopWelcome.css';
-import FadeInAnimation from "./FadeIn";
-import alexis from "my-app/public/alexisImage.jpeg"
+import '../css/TopWelcome.css';
 
 export default function TopWelcome() {
     return (

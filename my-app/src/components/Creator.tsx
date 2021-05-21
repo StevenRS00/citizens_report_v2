@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/Creator.css';
+import '../css/Creator.css';
 
 interface CreatorType {
     name: string

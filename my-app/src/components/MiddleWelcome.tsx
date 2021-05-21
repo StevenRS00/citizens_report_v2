@@ -1,9 +1,9 @@
 import React from 'react'
 import {Creator} from './Creator'
-import './css/MiddleWelcome.css';
-import alexis_local from './images/alexisImage.jpeg'
-import michael_local from './images/michaelImage.png'
-import steven_local from './images/stevenImage.jpeg'
+import '../css/MiddleWelcome.css';
+import alexis_local from '../images/alexisImage.jpeg'
+import michael_local from '../images/michaelImage.png'
+import steven_local from '../images/stevenImage.jpeg'
 
 interface CreatorType {
     name: string
