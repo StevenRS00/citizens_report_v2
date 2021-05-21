@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
 import TopWelcome from './TopWelcome'
 import {MiddleWelcome} from './MiddleWelcome'
 import BottomWelcome from './BottomWelcome'

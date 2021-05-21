@@ -1,5 +1,5 @@
 import React from 'react'
-import './BottomWelcome.css';
+import './css/BottomWelcome.css';
 export default function BottomWelcome() {
     return (
             <section className="bottomCard star text-center">
