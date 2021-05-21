@@ -1,5 +1,5 @@
 import React from 'react'
-import './TopWelcome.css';
+import './css/TopWelcome.css';
 import FadeInAnimation from "./FadeIn";
 import alexis from "my-app/public/alexisImage.jpeg"
 
