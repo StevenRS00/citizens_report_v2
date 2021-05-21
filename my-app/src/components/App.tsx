@@ -13,11 +13,11 @@ function App() {
           <TopWelcome/>
       </FadeInAnimation>
 
-      <FadeInAnimation wrapperElement="div" direction="up" delay={0.5}>
+      <FadeInAnimation wrapperElement="div" direction="up" delay={0.3}>
         <MiddleWelcome />
       </FadeInAnimation>
       
-      <FadeInAnimation wrapperElement="div" direction="up" delay={0.2}>
+      <FadeInAnimation wrapperElement="div" direction="up" delay={0.3}>
         <BottomWelcome />
       </FadeInAnimation>
     </div>
